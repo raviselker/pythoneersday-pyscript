@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1 - Clock</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <style>
+        #clock {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 10px;
+        }
+
+        .number-container {
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 10px 20px;
+            background-color: #f58220;
+        }
+
+        .number {
+            font-size: 40px;
+            font-family: monospace;
+            color: #FFF;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="clock">
+    <span class="number-container">
+        <span id="hours" class="number">00</span>
+    </span>
+    <span class="number-container">
+        <span id="minutes" class="number">00</span>
+    </span>
+    <span class="number-container">
+        <span id="seconds" class="number">00</span>
+    </span> 
+</div>
+<py-script src="/1-clock.py"></py-script>
+</body>
+
+</html>

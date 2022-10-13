@@ -77,11 +77,11 @@ Fetching data from a REST API can be very useful. However, because you're constr
 For this assignment we will fetch a random dog image URL using the following API: https://dog.ceo/api/breeds/image/random
 
 ### Assignment
-**Fetch the url of a random dog image using the following free REST API: GET https://dog.ceo/api/breeds/image/random. Show this image in the browser. Can you make the image update every 5 seconds?**
+**Fetch the url of a random dog image using the following free REST API: GET https://dog.ceo/api/breeds/image/random. Show this image in the browser. Can you make the image update every 5 seconds? Or by pressing a button?**
 
 Hints:
 * You will need to create an `<img>` html element and manipulate the `src` attribute in order to show the picture of the dog. It's best to use [pyodide's javascript proxy](https://realpython.com/pyscript-python-in-browser/#pyodides-javascript-proxy) to select (and manipulate) the element.
-* You can of course also decide to use a different REST API and show something completely different. See this [https://github.com/public-apis/public-apis](list of free APIs) for inspiration.
+* You can of course also decide to use a different REST API and show something completely different. See this [list of free APIs](https://github.com/public-apis/public-apis) for inspiration.
 
 ## Assignment 4 - Combining it all!
 

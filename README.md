@@ -18,7 +18,7 @@ There are a couple of helpful websites with information on PyScript that could h
 
 ## Basic example
 
-To help you get started with the assignments, you can copy-paste the following code into an html file and check whether it works:
+To help you get started with the assignments, you can copy-paste the following code into an html file and check whether it works by opening the file using a web browser:
 
 ```html
 <!DOCTYPE html>

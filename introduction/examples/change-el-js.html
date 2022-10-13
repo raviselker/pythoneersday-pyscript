@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Changing elements</title>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+  <div id="output">Original text</div>
+  <py-script>
+    from js import console, document
+
+    output_el = document.querySelector("#output")
+    
+    console.log("Changing ouput element...")
+    output_el.style.backgroundColor = "#f58220"
+    output_el.style.color = "#FFF"
+    output_el.innerHTML = "Ordina Pythoneersday | Pyscript"
+  </py-script>
+</body>
+</html>

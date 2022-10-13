@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Changing elements!</title>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+  <py-config type="json">
+    {
+      "packages": ["matplotlib"]   
+    }
+  </py-config>
+  <div id="output"></div>
+  <py-script>
+    import matplotlib.pyplot as plt
+
+    output_el = Element("output")
+    fig, _ = plt.subplots()
+    output_el.write(fig)
+  </py-script>
+</body>
+</html>

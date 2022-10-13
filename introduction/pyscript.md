@@ -49,7 +49,7 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 ---
 
-# Hello World
+# [Hello World](examples/hello-world.html)
 
 ```html
 <!DOCTYPE html>
@@ -69,7 +69,7 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 ---
 
-# Python REPL
+# [Python REPL](examples/repl.html)
 
 ```html
 <!DOCTYPE html>
@@ -89,7 +89,7 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 ---
 
-# Interacting with DOM
+# [Interacting with DOM](examples/change-el.html)
 
 ```html
 <body>
@@ -103,7 +103,7 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 ---
 
-# Interacting with DOM through js
+# [Interacting with DOM through js](examples/change-el-js.html)
 
 ```html
 <body>
@@ -123,22 +123,24 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 ---
 
-# Loading python package
+# [Loading python package](examples/loading-py-package.html)
 
 ```html
-<py-config type="json">
-  {
-    "packages": ["matplotlib"]   
-  }
-</py-config>
-<div id="output"></div>
-<py-script>
-  import matplotlib.pyplot as plt
+<head>
+  <py-env>
+    - matplotlib
+  </py-env>
+</head>
+<body>
+  <div id="output"></div>
+  <py-script>
+    import matplotlib.pyplot as plt
 
-  output_el = Element("output")
-  fig, _ = plt.subplots()
-  output_el.write(fig)
-</py-script>
+    output_el = Element("output")
+    fig, _ = plt.subplots()
+    output_el.write(fig)
+  </py-script>
+</body>
 ```
 
 ---
@@ -146,4 +148,8 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 # Let's explore PyScript!
 
+For help:
+https://realpython.com/pyscript-python-in-browser
+
+For assignments:
 https://github.com/raviselker/pythoneersday-pyscript

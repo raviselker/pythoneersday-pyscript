@@ -6,13 +6,11 @@
   <title>Changing elements!</title>
   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <py-env>
+    - matplotlib
+  </py-env>
 </head>
 <body>
-  <py-config type="json">
-    {
-      "packages": ["matplotlib"]   
-    }
-  </py-config>
   <div id="output"></div>
   <py-script>
     import matplotlib.pyplot as plt

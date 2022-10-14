@@ -50,7 +50,7 @@ PyScript allows you to easily run python code in the browser by adding the pytho
 **Recreate the 'hello_world' example, but instead of writing the python code within the `py-script` tags, create a separate file and load this into the html file.**
 
 Hints:
-* Because browsers don't like it if you try to load local files into your HTML ([because of CORS errors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server#the_problem_with_testing_local_files)), you'll need to run a local static server. Luckily, python makes it easy to set one up. Just run `pyhton -m http.server` from within your project directory, and you can find your app on the [localhost](http://localhost:8000/)
+* Because browsers don't like it if you try to load local files into your HTML ([because of CORS errors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server#the_problem_with_testing_local_files)), you'll need to run a local static server. Luckily, python makes it easy to set one up. Just run `python -m http.server` from within your project directory, and you can find your app on the [localhost](http://localhost:8000/)
 * You can load the python file directly in the `<py-script>` tags, by using the `src` attribute. See, [the RealPython article](https://realpython.com/pyscript-python-in-browser/#dealing-with-python-code-formatting) for more information.
 
 ## Assignment 1 - Manipulating the DOM

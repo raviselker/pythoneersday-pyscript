@@ -31,15 +31,9 @@ https://github.com/raviselker/pythoneersday-pyscript
 
 # PyCon 2022
 
-Peter Wang (keynote) **PyScript - Programming for Everyone**
+Peter Wang [**PyScript - Programming for Everyone**](https://pyscript.net/)
 
 ![w:600 center](./images/pycon_2022.png)
-
----
-
-# How?
-
-![w:600 center](./images/pyscript1.png)
 
 ---
 
@@ -66,6 +60,13 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 </body>
 </html>
 ```
+
+---
+
+
+# How?
+
+![w:600 center](./images/pyscript1.png)
 
 ---
 
@@ -150,6 +151,9 @@ Peter Wang (keynote) **PyScript - Programming for Everyone**
 
 For help:
 https://realpython.com/pyscript-python-in-browser
+
+Examples:
+https://github.com/pyscript/pyscript
 
 For assignments:
 https://github.com/raviselker/pythoneersday-pyscript
